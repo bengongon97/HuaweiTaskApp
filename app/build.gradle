@@ -2,6 +2,14 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('C:\\Users\\Enes\\Desktop\\HuaweiTask Additional Files\\my_keystore_file.jks')
+            storePassword 'Enesnuman13'
+            keyAlias 'my_first_key'
+            keyPassword 'Enesnuman13'
+        }
+    }
     compileSdkVersion 29
 
     buildFeatures {
@@ -22,8 +30,10 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled true
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
+            debuggable true
         }
     }
 }
