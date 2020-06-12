@@ -1,0 +1,56 @@
+[
+  {
+    "id": 14256,
+    "city": {
+      "id": {
+        "$numberLong": "14256"
+      },
+      "name": "Azadshahr",
+      "findname": "AZADSHAHR",
+      "country": "IR",
+      "coord": {
+        "lon": 48.570728,
+        "lat": 34.790878
+      },
+      "zoom": {
+        "$numberLong": "10"
+      }
+    }
+  },
+  {
+    "id": 18918,
+    "city": {
+      "id": {
+        "$numberLong": "18918"
+      },
+      "name": "Protaras",
+      "findname": "PROTARAS",
+      "country": "CY",
+      "coord": {
+        "lon": 34.058331,
+        "lat": 35.012501
+      },
+      "zoom": {
+        "$numberLong": "6"
+      }
+    }
+  },
+  {
+    "id": 23814,
+    "city": {
+      "id": {
+        "$numberLong": "23814"
+      },
+      "name": "Kahriz",
+      "findname": "KAHRIZ",
+      "country": "IR",
+      "coord": {
+        "lon": 47.055302,
+        "lat": 34.383801
+      },
+      "zoom": {
+        "$numberLong": "7"
+      }
+    }
+  }
+]
